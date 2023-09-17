@@ -17,7 +17,7 @@
         <input type="text" name="name" placeholder="name"value="<?= isset($pro['FullName']) ? $pro['FullName']:''?>">
         <br>
         <label>quantity</label>
-        <input type="text" name="quantity" placeholder="quantity"value="<?=isset($pro['YearLevel']) ?  $pro['YearLevel']:'' ?>">
+        <input type="text" name="quantity" placeholder="quantity"value="<?=isset($pro['quantity']) ?  $pro['quantity']:'' ?>">
         <br>
         <input type="submit" value="save">
 

@@ -52,7 +52,17 @@ class ProductController extends BaseController
         }else{
             return "Record not found";
         }
+        
     }
+
+    public function edit($id)
+    {   $data=
+    [
+      'product' => $this->product->findAll(),
+      'pro'=> $this->product->where('id',$id)->first(),
+    ];
+    return view('/products',$data);
+   }
      public function index()
     {
 
