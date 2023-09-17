@@ -4,9 +4,14 @@ namespace App\Controllers;
 
 class PrductController extends BaseController
 {
+    public function index()
+    {
+        
+    }
+
     public function Kweng11()
    {
-      echo 'hello';
+      echo 'hello Kweng1';
    }
 
 }

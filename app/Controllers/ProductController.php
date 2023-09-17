@@ -6,8 +6,16 @@ use App\Controllers\BaseController;
 
 class ProductController extends BaseController
 {
-    public function index()
+    public function product($product)
     {
-        //
+        echo $product;
+    }
+    public function Kweng11()
+    {
+        echo 'working';
+    }
+     public function index()
+    {
+        
     }
 }
