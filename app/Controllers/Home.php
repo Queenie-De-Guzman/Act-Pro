@@ -8,4 +8,13 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+
+    public function Kweng11()
+   {
+      echo 'hello Kweng11';
+   }
+
 }
+
+
+
